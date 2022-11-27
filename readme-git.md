@@ -2,5 +2,6 @@
 gitGraph
   commit
   commit
+  branch develop
 ```
 
