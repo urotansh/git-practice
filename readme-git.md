@@ -7,5 +7,6 @@ gitGraph
   commit
   commit
   checkout main
+  merge develop
 ```
 
