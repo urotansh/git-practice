@@ -9,6 +9,7 @@ gitGraph
   checkout main
   merge develop
   branch topicA
+  checkout topicA
   commit
 ```
 
