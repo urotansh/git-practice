@@ -12,6 +12,7 @@ gitGraph
   checkout topicA
   commit
   branch topicB
+  checkout topicB
   commit
 ```
 
