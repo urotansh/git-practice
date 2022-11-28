@@ -6,5 +6,6 @@ gitGraph
   checkout develop
   commit
   commit
+  checkout main
 ```
 
