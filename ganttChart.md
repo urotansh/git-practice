@@ -6,7 +6,7 @@ gantt
   Progress report1 :         t4, after t3,   2d
   Progress report2 :         t5, after t4,   5d
   Deploy           :         t6, after t5,   6d
-  Progress report3 :         t7, after t6,   2d
-  Complete report  :             2022-12-24, 2d
+  Progress report3 :         t7, 2022-12-24, 2d
+  Complete report  :         t8, after t7,   2d
 ```
 
