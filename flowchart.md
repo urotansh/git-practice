@@ -13,6 +13,8 @@ I --> J[["order_item.price = cart_item.item.price_add_tax"]]
 J --> K[["order_item.amount = cart_item.amount"]]
 K --> L[["order_item.save"]]
 L --> M[\"end"/]
-M -->|loop| F
+M -.->|loop| F
+M --> N[["current_customer.cart_items.destroy_all"]]
+N --> O[["redirect_to orders_thanks_path"]]
 ```
 
