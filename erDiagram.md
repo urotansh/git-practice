@@ -13,6 +13,8 @@ erDiagram
     id           integer
     followed_id  integer
     follower_id  integer
+    created_at   datetime
+    updated_at   datetime
   }
 ```
 
