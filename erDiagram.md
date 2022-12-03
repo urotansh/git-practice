@@ -1,6 +1,7 @@
 ```mermaid
 erDiagram
-  User ||--o{Relationship: ""
+  User ||--o{ Relationship: "followed"
+  User ||--o{ Relationship: "follower"
   
   User {
     id           integer
